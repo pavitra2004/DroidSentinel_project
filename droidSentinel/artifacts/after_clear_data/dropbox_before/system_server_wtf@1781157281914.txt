@@ -1,0 +1,15 @@
+Process: system_server
+Subject: PasspointManager
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+
+android.util.Log$TerribleFailure: No app ops listener found for com.projectstar.ishredder.android.standard
+	at android.util.Log.wtf(Log.java:309)
+	at android.util.Log.wtf(Log.java:273)
+	at com.android.server.wifi.hotspot2.PasspointManager.stopTrackingAppOpsChange(PasspointManager.java:316)
+	at com.android.server.wifi.hotspot2.PasspointManager.removePasspointProviderWithPackage(PasspointManager.java:287)
+	at com.android.server.wifi.WifiServiceImpl$6.lambda$onReceive$0$WifiServiceImpl$6(WifiServiceImpl.java:2702)
+	at com.android.server.wifi.-$$Lambda$WifiServiceImpl$6$eec3FNKNle8HO3DXfeN4g_OPHw4.run(Unknown Source:6)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
