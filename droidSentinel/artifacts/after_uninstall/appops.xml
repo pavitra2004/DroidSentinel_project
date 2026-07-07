@@ -1,0 +1,893 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<app-ops v="1">
+<uid n="1000">
+<op n="0" m="4" />
+<op n="87" m="1" />
+</uid>
+<uid n="1001">
+<op n="0" m="4" />
+<op n="15" m="0" />
+<op n="87" m="1" />
+</uid>
+<uid n="1002">
+<op n="0" m="4" />
+<op n="15" m="0" />
+<op n="87" m="0" />
+</uid>
+<uid n="1027">
+<op n="87" m="1" />
+</uid>
+<uid n="1073">
+<op n="0" m="4" />
+</uid>
+<uid n="2000">
+<op n="0" m="4" />
+<op n="87" m="1" />
+</uid>
+<uid n="10056">
+<op n="87" m="1" />
+</uid>
+<uid n="10060">
+<op n="87" m="1" />
+</uid>
+<uid n="10061">
+<op n="87" m="1" />
+</uid>
+<uid n="10069">
+<op n="87" m="1" />
+</uid>
+<uid n="10070">
+<op n="87" m="1" />
+</uid>
+<uid n="10072">
+<op n="87" m="0" />
+</uid>
+<uid n="10078">
+<op n="0" m="1" />
+</uid>
+<uid n="10082">
+<op n="87" m="0" />
+</uid>
+<uid n="10085">
+<op n="0" m="1" />
+</uid>
+<uid n="10091">
+<op n="0" m="1" />
+</uid>
+<uid n="10093">
+<op n="0" m="4" />
+</uid>
+<uid n="10100">
+<op n="87" m="0" />
+</uid>
+<uid n="10101">
+<op n="87" m="0" />
+</uid>
+<uid n="10104">
+<op n="0" m="4" />
+</uid>
+<uid n="10106">
+<op n="87" m="0" />
+</uid>
+<uid n="10107">
+<op n="87" m="0" />
+</uid>
+<uid n="10109">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10110">
+<op n="87" m="1" />
+</uid>
+<uid n="10112">
+<op n="87" m="0" />
+</uid>
+<uid n="10113">
+<op n="0" m="4" />
+<op n="87" m="1" />
+</uid>
+<uid n="10116">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10119">
+<op n="87" m="1" />
+</uid>
+<uid n="10121">
+<op n="87" m="0" />
+</uid>
+<uid n="10122">
+<op n="87" m="0" />
+</uid>
+<uid n="10126">
+<op n="87" m="0" />
+</uid>
+<uid n="10128">
+<op n="87" m="0" />
+</uid>
+<uid n="10129">
+<op n="0" m="1" />
+<op n="15" m="0" />
+<op n="87" m="0" />
+<op n="89" m="0" />
+</uid>
+<uid n="10130">
+<op n="0" m="1" />
+</uid>
+<uid n="10131">
+<op n="0" m="1" />
+<op n="87" m="1" />
+</uid>
+<uid n="10132">
+<op n="87" m="0" />
+</uid>
+<uid n="10133">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10134">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10135">
+<op n="0" m="1" />
+</uid>
+<uid n="10136">
+<op n="0" m="4" />
+<op n="87" m="1" />
+</uid>
+<uid n="10137">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10139">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10141">
+<op n="87" m="1" />
+</uid>
+<uid n="10142">
+<op n="87" m="1" />
+</uid>
+<uid n="10143">
+<op n="87" m="1" />
+</uid>
+<uid n="10144">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10145">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<uid n="10146">
+<op n="0" m="1" />
+<op n="87" m="0" />
+</uid>
+<pkg n="com.android.phone">
+<uid n="0" p="false">
+<op n="75" m="0" />
+</uid>
+</pkg>
+<pkg n="com.android.dynsystem">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="android">
+<uid n="1000" p="true">
+<op n="1">
+<st n="214748364801" t="1781157152225" />
+</op>
+<op n="8">
+<st n="214748364808" t="1781156551237" />
+</op>
+<op n="40">
+<st n="214748364801" t="1781157297989" d="1" />
+</op>
+<op n="41">
+<st n="214748364801" t="1780634101728" d="42814586" />
+</op>
+<op n="43">
+<st n="214748364801" r="1781157282096" />
+</op>
+<op n="61">
+<st n="214748364801" t="1781150139150" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.providers.settings">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="com.android.inputdevices">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="com.android.server.telecom">
+<uid n="1000" p="true">
+<op n="6">
+<st n="214748364808" t="1780634112711" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.keychain">
+<uid n="1000" p="false" />
+</pkg>
+<pkg n="com.android.localtransport">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="com.android.emulator.multidisplay">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="com.android.settings">
+<uid n="1000" p="true">
+<op n="43">
+<st n="214748364801" r="1780566006316" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.wallpaperbackup">
+<uid n="1000" p="false" />
+</pkg>
+<pkg n="com.android.location.fused">
+<uid n="1000" p="true" />
+</pkg>
+<pkg n="com.android.providers.telephony">
+<uid n="1001" p="true" />
+</pkg>
+<pkg n="com.android.mms.service">
+<uid n="1001" p="true" />
+</pkg>
+<pkg n="com.android.ons">
+<uid n="1001" p="true" />
+</pkg>
+<pkg n="com.android.stk">
+<uid n="1001" p="false" />
+</pkg>
+<pkg n="com.android.service.ims">
+<uid n="1001" p="false">
+<op n="15">
+<st n="214748364801" t="1780634104950" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.service.ims.presence">
+<uid n="1001" p="false" />
+</pkg>
+<pkg n="com.android.phone">
+<uid n="1001" p="true">
+<op n="6">
+<st n="214748364801" t="1780634098690" />
+</op>
+<op n="14">
+<st n="214748364802" t="1780634124295" />
+</op>
+<op n="15">
+<st n="214748364801" t="1780634112898" />
+</op>
+<op n="40">
+<st n="214748364801" t="1781157291564" d="1" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.bluetooth">
+<uid n="1002" p="false" />
+</pkg>
+<pkg n="com.android.nfc">
+<uid n="1027" p="false" />
+</pkg>
+<pkg n="audioserver">
+<uid n="1041" p="false">
+<op n="40">
+<st n="1503238553601" t="1781155433422" />
+</op>
+<op n="43">
+<st n="1503238553601" r="1781157287708" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.se">
+<uid n="1068" p="false" />
+</pkg>
+<pkg n="com.google.android.networkstack">
+<uid n="1073" p="true">
+<op n="0">
+<st n="214748364801" t="1780994359228" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.networkstack.permissionconfig">
+<uid n="1073" p="true" />
+</pkg>
+<pkg n="com.android.shell">
+<uid n="2000" p="true" />
+</pkg>
+<pkg n="com.android.apps.tag">
+<uid n="10056" p="true" />
+</pkg>
+<pkg n="com.android.calllogbackup">
+<uid n="10057" p="true" />
+</pkg>
+<pkg n="com.android.providers.blockednumber">
+<uid n="10057" p="true">
+<op n="4">
+<st n="1073741824002" t="1780641016418" />
+<st n="1288490188802" t="1780634276031" />
+<st n="1503238553602" t="1780634248534" />
+</op>
+<op n="5">
+<st n="1073741824002" t="1780634245875" />
+</op>
+<op n="6">
+<st n="1073741824002" t="1780634112711" />
+<st n="1503238553602" t="1780634112704" />
+</op>
+<op n="7">
+<st n="1503238553602" t="1780634112517" />
+</op>
+<op n="51">
+<st n="1073741824001" t="1780634113064" />
+</op>
+<op n="52">
+<st n="1288490188802" t="1780634468990" />
+<st n="1503238553602" t="1780634278600" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.providers.userdictionary">
+<uid n="10057" p="true">
+<op n="4">
+<st n="1073741824002" t="1780570301413" />
+<st n="1288490188802" t="1780566708065" />
+<st n="1288490188816" t="1780563323107" />
+<st n="1503238553602" t="1780564422704" />
+<st n="1503238553616" t="1780563401848" />
+</op>
+<op n="5">
+<st n="1073741824002" t="1780566011191" />
+</op>
+<op n="6">
+<st n="1073741824002" t="1780565935287" />
+<st n="1288490188802" t="1780559269789" />
+<st n="1503238553602" t="1780559409893" />
+</op>
+<op n="7">
+<st n="1073741824002" t="1780563321609" />
+<st n="1288490188802" t="1780559270902" />
+</op>
+<op n="51">
+<st n="1073741824001" t="1780559410338" />
+</op>
+<op n="52">
+<st n="1073741824002" t="1780565935354" />
+<st n="1288490188802" t="1780559662787" />
+<st n="1503238553602" t="1780559406548" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.providers.contacts">
+<uid n="10057" p="true">
+<op n="4">
+<st n="1073741824002" t="1780998196549" />
+<st n="1503238553602" t="1781150282888" />
+</op>
+<op n="5">
+<st n="1073741824002" t="1780986822920" />
+<st n="1503238553602" t="1780986835055" />
+</op>
+<op n="6">
+<st n="1073741824002" t="1781153390998" />
+</op>
+<op n="7">
+<st n="1073741824002" t="1781153391037" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.packageinstaller">
+<uid n="10058" p="true" />
+</pkg>
+<pkg n="com.google.android.ext.services">
+<uid n="10059" p="true" />
+</pkg>
+<pkg n="com.android.providers.media">
+<uid n="10060" p="true">
+<op n="23">
+<st n="1288490188801" r="1780559329243" />
+</op>
+<op n="40">
+<st n="1073741824001" t="1780634113501" />
+<st n="1288490188801" t="1781157288808" d="11" />
+</op>
+<op n="60">
+<st n="1288490188801" t="1781157282844" />
+<st n="1503238553601" t="1780640539345" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.providers.downloads">
+<uid n="10060" p="true">
+<op n="60">
+<st n="1073741824001" t="1780559512048" />
+<st n="1288490188801" t="1780634111382" />
+<st n="1503238553601" t="1780559395066" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.mtp">
+<uid n="10060" p="true" />
+</pkg>
+<pkg n="com.android.externalstorage">
+<uid n="10061" p="true" />
+</pkg>
+<pkg n="com.android.documentsui">
+<uid n="10063" p="true" />
+</pkg>
+<pkg n="com.android.cellbroadcastreceiver">
+<uid n="10064" p="true" />
+</pkg>
+<pkg n="com.google.android.permissioncontroller">
+<uid n="10065" p="true" />
+</pkg>
+<pkg n="com.android.providers.calendar">
+<uid n="10069" p="true">
+<op n="8">
+<st n="1073741824002" t="1781156551237" />
+<st n="1288490188802" t="1781156556123" />
+<st n="1503238553602" t="1780654309075" />
+</op>
+<op n="9">
+<st n="1288490188802" t="1780634116285" />
+</op>
+<op n="40">
+<st n="1288490188801" t="1780634116330" d="71" />
+<st n="1503238553601" t="1780559416400" d="1" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.sharedstoragebackup">
+<uid n="10070" p="true" />
+</pkg>
+<pkg n="com.google.android.apps.restore">
+<uid n="10072" p="true">
+<op n="40">
+<st n="1073741824001" t="1780559263464" d="1983" />
+<st n="1288490188801" t="1780559263508" />
+<st n="1503238553601" t="1780559301482" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.managedprovisioning">
+<uid n="10074" p="true" />
+</pkg>
+<pkg n="com.android.companiondevicemanager">
+<uid n="10075" p="false" />
+</pkg>
+<pkg n="com.ustwo.lwp">
+<uid n="10078" p="false" />
+</pkg>
+<pkg n="com.google.android.inputmethod.korean">
+<uid n="10082" p="false" />
+</pkg>
+<pkg n="com.android.bips">
+<uid n="10085" p="false" />
+</pkg>
+<pkg n="com.google.android.captiveportallogin">
+<uid n="10091" p="false" />
+</pkg>
+<pkg n="com.android.printspooler">
+<uid n="10093" p="false" />
+</pkg>
+<pkg n="com.android.traceur">
+<uid n="10095" p="false" />
+</pkg>
+<pkg n="com.android.smspush">
+<uid n="10099" p="false" />
+</pkg>
+<pkg n="com.google.android.inputmethod.pinyin">
+<uid n="10100" p="false" />
+</pkg>
+<pkg n="com.google.android.apps.inputmethod.hindi">
+<uid n="10101" p="false" />
+</pkg>
+<pkg n="com.google.android.setupwizard">
+<uid n="10104" p="true">
+<op n="78">
+<st n="429496729601" t="1780559245483" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.omadm.service">
+<uid n="10105" p="true" />
+</pkg>
+<pkg n="com.google.android.apps.pixelmigrate">
+<uid n="10106" p="true" />
+</pkg>
+<pkg n="com.android.contacts">
+<uid n="10107" p="true">
+<op n="4">
+<st n="429496729608" t="1780565919092" />
+</op>
+<op n="5">
+<st n="429496729608" t="1780565857152" />
+</op>
+<op n="45">
+<st n="429496729601" t="1780565859971" d="2549" />
+</op>
+<op n="51">
+<st n="429496729601" t="1780565919322" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.dialer">
+<uid n="10109" p="true">
+<op n="4">
+<st n="429496729608" t="1780565935358" />
+</op>
+<op n="6">
+<st n="429496729608" t="1780565935287" />
+<st n="1288490188808" t="1780634112484" />
+</op>
+<op n="20">
+<st n="1288490188801" t="1780634408959" />
+</op>
+<op n="51">
+<st n="1288490188801" t="1780634100214" />
+<st n="1503238553601" t="1780634098987" />
+</op>
+<op n="52">
+<st n="429496729608" t="1780565935354" />
+<st n="1288490188808" t="1780634468990" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.storagemanager">
+<uid n="10110" p="true" />
+</pkg>
+<pkg n="com.google.android.projection.gearhead">
+<uid n="10111" p="true" />
+</pkg>
+<pkg n="com.google.android.gms">
+<uid n="10112" p="true">
+<op n="0">
+<st n="858993459201" t="1781150939269" />
+<st n="1073741824001" t="1780995239296" />
+<st n="1288490188801" t="1780634103934" />
+</op>
+<op n="1">
+<st n="429496729601" t="1781151606778" />
+<st n="858993459201" t="1781157216546" />
+<st n="1073741824001" t="1781155735409" />
+</op>
+<op n="4">
+<st n="429496729602" t="1780563401681" />
+<st n="429496729608" t="1780634276031" />
+<st n="858993459201" t="1780559269511" />
+<st n="858993459202" t="1780634139773" />
+<st n="858993459208" t="1780634139795" />
+<st n="1073741824001" t="1780559339138" />
+<st n="1073741824002" t="1780634119901" />
+<st n="1073741824008" t="1780986853938" />
+</op>
+<op n="5">
+<st n="429496729602" t="1780563401685" />
+<st n="858993459202" t="1780634139777" />
+<st n="1073741824002" t="1780559435067" />
+</op>
+<op n="6">
+<st n="1073741824008" t="1780559382974" />
+</op>
+<op n="10">
+<st n="429496729601" t="1780634281110" />
+<st n="858993459201" t="1781157216547" />
+<st n="1073741824001" t="1781155735396" />
+</op>
+<op n="14">
+<st n="858993459202" t="1780634139005" />
+<st n="1073741824002" t="1780559344106" />
+<st n="1073741824008" t="1780559428048" />
+</op>
+<op n="15">
+<st n="429496729601" r="1780564420515" />
+<st n="858993459201" r="1780562947846" />
+</op>
+<op n="23">
+<st n="858993459201" r="1780634139457" />
+<st n="1073741824001" r="1780559433865" />
+</op>
+<op n="29">
+<st n="429496729601" t="1780569805320" />
+<st n="858993459201" t="1781157294036" />
+<st n="1073741824001" t="1781155698129" />
+</op>
+<op n="40">
+<st n="429496729601" t="1781151625650" d="120" />
+<st n="858993459201" t="1781157213131" d="560" />
+<st n="1073741824001" t="1781155735289" d="12" />
+<st n="1288490188801" t="1780559317416" />
+</op>
+<op n="41">
+<st n="429496729601" t="1781151606855" d="168" />
+<st n="858993459201" t="1781155736415" />
+<st n="1073741824001" t="1781155736415" d="302941" />
+</op>
+<op n="43">
+<st n="429496729601" r="1781151607030" />
+<st n="858993459201" r="1781157281880" />
+<st n="1073741824001" r="1781155434147" />
+</op>
+<op n="51">
+<st n="858993459202" t="1780634139007" />
+<st n="1073741824002" t="1780559344109" />
+</op>
+<op n="60">
+<st n="858993459201" t="1781157280193" />
+</op>
+<op n="71">
+<st n="858993459201" t="1780657247534" />
+<st n="1073741824001" t="1780559414120" />
+</op>
+<op n="78">
+<st n="858993459201" t="1780634138683" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.gsf">
+<uid n="10112" p="true" />
+</pkg>
+<pkg n="com.android.systemui">
+<uid n="10113" p="true">
+<op n="0">
+<st n="214748364801" t="1780634097592" />
+</op>
+<op n="6">
+<st n="214748364801" t="1780634098396" />
+</op>
+<op n="32">
+<st n="214748364801" t="1781083156243" />
+</op>
+<op n="40">
+<st n="214748364801" t="1781087618795" d="29" />
+</op>
+<op n="59">
+<st n="214748364801" t="1780634098327" />
+</op>
+<op n="85">
+<st n="214748364801" t="1780634098327" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.configupdater">
+<uid n="10114" p="true" />
+</pkg>
+<pkg n="com.android.emergency">
+<uid n="10115" p="true" />
+</pkg>
+<pkg n="com.google.android.ims">
+<uid n="10116" p="true">
+<op n="15">
+<st n="1288490188801" r="1780634122778" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.partnersetup">
+<uid n="10117" p="true" />
+</pkg>
+<pkg n="com.google.android.onetimeinitializer">
+<uid n="10118" p="true" />
+</pkg>
+<pkg n="com.google.android.apps.nexuslauncher">
+<uid n="10119" p="true" />
+</pkg>
+<pkg n="com.google.android.angle">
+<uid n="10120" p="true" />
+</pkg>
+<pkg n="com.google.android.apps.wallpaper">
+<uid n="10121" p="true">
+<op n="40">
+<st n="1288490188801" t="1781079453344" d="48" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.googlequicksearchbox">
+<uid n="10122" p="true">
+<op n="0" />
+<op n="1">
+<st n="644245094401" t="1781157152408" />
+</op>
+<op n="6">
+<st n="644245094401" t="1781155432614" />
+</op>
+<op n="8">
+<st n="644245094408" t="1780634130768" />
+</op>
+<op n="10">
+<st n="644245094401" t="1781073225629" />
+</op>
+<op n="27">
+<st n="644245094401" t="1781155433407" d="1650068" />
+</op>
+<op n="41">
+<st n="644245094401" t="1781155433217" d="1650257" />
+</op>
+<op n="45">
+<st n="644245094401" t="1781071258181" d="3942" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.webview">
+<uid n="10125" p="false" />
+</pkg>
+<pkg n="com.google.android.deskclock">
+<uid n="10126" p="false">
+<op n="40">
+<st n="1288490188801" t="1781156551495" d="23" />
+<st n="1503238553601" t="1781081074153" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.soundpicker">
+<uid n="10128" p="false" />
+</pkg>
+<pkg n="com.google.android.apps.messaging">
+<uid n="10129" p="false">
+<op n="4">
+<st n="1288490188808" t="1780559310770" />
+<st n="1503238553608" t="1781150282888" />
+</op>
+<op n="14">
+<st n="1288490188808" t="1780634124295" />
+<st n="1503238553601" t="1780559364243" />
+</op>
+<op n="15">
+<st n="1288490188801" t="1781150162580" />
+<st n="1503238553601" t="1780634121918" />
+</op>
+<op n="40">
+<st n="1288490188801" t="1780559322373" />
+<st n="1503238553601" t="1780559321383" d="5" />
+</op>
+<op n="43">
+<st n="1288490188801" r="1781150164110" />
+</op>
+<op n="51">
+<st n="1288490188801" t="1781150164140" />
+<st n="1503238553601" t="1781150935961" />
+</op>
+<op n="89">
+<st n="1288490188801" t="1781150163840" />
+<st n="1503238553601" t="1780634121885" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.apps.enterprise.dmagent">
+<uid n="10130" p="false">
+<op n="89">
+<st n="1288490188801" r="1780559379474" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.breel.wallpapers18">
+<uid n="10131" p="false" />
+</pkg>
+<pkg n="com.google.android.gm">
+<uid n="10132" p="false">
+<op n="4">
+<st n="1288490188804" t="1780559428747" />
+<st n="1503238553604" t="1780563401848" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.camera2">
+<uid n="10133" p="false" />
+</pkg>
+<pkg n="com.google.android.apps.photos">
+<uid n="10134" p="false">
+<op n="40">
+<st n="1288490188801" t="1780634126603" d="322" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.calendar">
+<uid n="10135" p="false">
+<op n="8">
+<st n="1288490188808" t="1781154073987" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.android.chrome">
+<uid n="10136" p="false" />
+</pkg>
+<pkg n="com.google.android.videos">
+<uid n="10137" p="false">
+<op n="40">
+<st n="858993459201" t="1780559439002" d="9" />
+<st n="1288490188801" t="1780637757254" d="18" />
+</op>
+<op n="76">
+<st n="858993459201" t="1780559439352" />
+<st n="1288490188801" t="1780559438796" d="12" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.syncadapters.contacts">
+<uid n="10138" p="false" />
+</pkg>
+<pkg n="com.google.android.music">
+<uid n="10139" p="false">
+<op n="59">
+<st n="1503238553601" t="1780563410988" />
+</op>
+<op n="60">
+<st n="1503238553601" t="1780563410982" />
+</op>
+<op n="81">
+<st n="1503238553601" t="1780563410992" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.markup">
+<uid n="10141" p="false" />
+</pkg>
+<pkg n="com.google.android.apps.maps">
+<uid n="10142" p="false">
+<op n="0" />
+<op n="1">
+<st n="1288490188801" t="1781150163693" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.apps.docs">
+<uid n="10143" p="false" />
+</pkg>
+<pkg n="com.google.android.youtube">
+<uid n="10144" p="false">
+<op n="40">
+<st n="858993459201" t="1780559316822" />
+<st n="1073741824001" t="1780559314717" d="458" />
+<st n="1288490188801" t="1780559442469" />
+<st n="1503238553601" t="1780559442064" d="2" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.google.android.inputmethod.latin">
+<uid n="10145" p="false">
+<op n="40">
+<st n="644245094401" t="1780563410468" d="1763" />
+<st n="858993459201" t="1780559285233" d="13276" />
+</op>
+<op n="76">
+<st n="644245094401" t="1780563410464" d="1853" />
+<st n="858993459201" t="1780563321204" />
+<st n="1288490188801" t="1780563321204" d="3" />
+</op>
+</uid>
+</pkg>
+<pkg n="com.whatsapp">
+<uid n="10146" p="false">
+<op n="3">
+<st n="429496729601" t="1780989813686" d="1013" />
+</op>
+<op n="4">
+<st n="429496729608" t="1780998196549" />
+</op>
+<op n="5">
+<st n="429496729608" t="1780986835055" />
+</op>
+<op n="40">
+<st n="429496729601" t="1780998192672" />
+<st n="858993459201" t="1780998192672" />
+<st n="1288490188801" t="1780986670605" d="58474" />
+</op>
+<op n="43">
+<st n="429496729601" r="1780986850837" />
+</op>
+<op n="45">
+<st n="429496729601" t="1780987860423" d="2504" />
+</op>
+<op n="76">
+<st n="429496729601" t="1780998192672" />
+<st n="858993459201" t="1780998192672" />
+<st n="1288490188801" t="1780566732520" />
+<st n="1503238553601" t="1780569756161" />
+</op>
+</uid>
+</pkg>
+</app-ops>
