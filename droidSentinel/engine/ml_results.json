@@ -1,0 +1,1011 @@
+{
+    "training_time": "2026-07-01 14:37:19",
+    "total_samples": 131,
+    "normal_samples": 61,
+    "anomaly_samples": 70,
+    "accuracy": 90.8,
+    "features": [
+        "usagestats_size",
+        "dropbox_count",
+        "dropbox_size",
+        "notification_entries",
+        "notification_size",
+        "packages_size",
+        "netstats_size",
+        "ishredder_pdf",
+        "shreddit_count",
+        "secure_eraser_ts",
+        "factory_reset",
+        "unknown_wiping_app_detected"
+    ],
+    "r11_note": "unknown_wiping_app_detected: binary feature for R11 \u2014 detects any   unknown wiping app by behavioral signature (storage perms + no network + active   usage). Zero-filled as R11 never fired on any scan.",
+    "validation_results": [
+        {
+            "scan": "baseline_scan",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4595138074400542,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260615_145928",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4595138074400542,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260615_151217",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4595138074400542,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260618_102522",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5361070005818144,
+            "correct": false
+        },
+        {
+            "scan": "scan_20260618_102956",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4849244663055268,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260618_103609",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.6594855713106014,
+            "correct": false
+        },
+        {
+            "scan": "scan_20260615_152150",
+            "actual": "anomaly",
+            "predicted": "normal",
+            "score": -0.45793088536277615,
+            "correct": false
+        },
+        {
+            "scan": "scan_20260617_151004",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5809842082871315,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260617_151530",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5809842082871315,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260618_104018",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6594855713106014,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260618_104208",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6594855713106014,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260618_104523",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6594855713106014,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_104830",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5864056185609063,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_114030",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6115213289798079,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_105235",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5864056185609063,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_105433",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.597084721685781,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_105814",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.597084721685781,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_110305",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.597084721685781,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260622_155941",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6266264862884986,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_01",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5343994514353695,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_02",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4982302037741843,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_03",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5006124408267815,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_04",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4909773808655581,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_05",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5006123316265527,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_06",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5080898269616692,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_07",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5128322329694731,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_08",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.49457996974592905,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_09",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5131673724070306,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_10",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.483646695334221,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_11",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.46583752301756154,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_12",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5629843912285617,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_13",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.48689041089291957,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_14",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4745237601996097,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_15",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5258786239467923,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_16",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5246033711719525,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_17",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5304453440897544,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_18",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.518088237964759,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_19",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.47370896955848973,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_20",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5252065503955862,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_21",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.519457222874281,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_22",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5325642664346483,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_23",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.525935714972931,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_24",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.48995876161907453,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_25",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.48784088463018443,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_26",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5518614684401811,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_27",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4842449277222123,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_28",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5499614959420828,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_29",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5326674980187004,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_30",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.55622232733254,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_anomaly_01",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.582918120909406,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_02",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.588317061110583,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_03",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6439892343712887,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_04",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5917246040313109,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_05",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5915762126161533,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_06",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6129499053014981,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_07",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5764703934236299,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_08",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6162831107485851,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_09",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.607839655373871,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_10",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6031651727691285,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_11",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6171791563360945,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_12",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6299775876646134,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_13",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6065118806644709,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_14",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5916421200486068,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_15",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6289172245846031,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_16",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6054056311736605,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_17",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6519193985163456,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_18",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.590705694080406,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_19",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5812985733159112,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_20",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6148933871073868,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_21",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6352770234280427,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_22",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5858100541406375,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_23",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5867362817679612,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_24",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5860549684420494,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_25",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6236027491401037,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_26",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.627318687290384,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_27",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5759572633857125,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_28",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5909370174216165,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_29",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6282040340678173,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_30",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6157042338374232,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_31",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5343994514353695,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_32",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4982302037741843,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_33",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5006124408267815,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_34",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4909773808655581,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_35",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5006123316265527,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_36",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5080898269616692,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_37",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5128322329694731,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_38",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.49457996974592905,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_39",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5131673724070306,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_40",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.483646695334221,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_41",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.46583752301756154,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_42",
+            "actual": "normal",
+            "predicted": "anomaly",
+            "score": -0.5629843912285617,
+            "correct": false
+        },
+        {
+            "scan": "synthetic_normal_43",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.48689041089291957,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_44",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.4745237601996097,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_45",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5258786239467923,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_46",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5246033711719525,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_47",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5304453440897544,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_48",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.518088237964759,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_49",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.47370896955848973,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_50",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5252065503955862,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_51",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.519457222874281,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_52",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.5325642664346483,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_53",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.525935714972931,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_54",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.48995876161907453,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_normal_55",
+            "actual": "normal",
+            "predicted": "normal",
+            "score": -0.48784088463018443,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_31",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6148933871073868,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_32",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6094544250962227,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_33",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6191856693308909,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_34",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.582918120909406,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_35",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5830644876871807,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_36",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5933031372987849,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_37",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.601173328011765,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_38",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5889459621110225,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_39",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.614286003690977,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_40",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6102472621375821,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_41",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6162831107485851,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_42",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6182565404900638,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_43",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6442954122783306,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_44",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5954037702099302,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_45",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6299775876646134,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_46",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6065118806644709,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_47",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5916421200486068,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_48",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6178798304763202,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_49",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6054056311736605,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_50",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6519193985163456,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_51",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.647329902670542,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_52",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6449011702342422,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_53",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.631705112631178,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_54",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5909428034198415,
+            "correct": true
+        },
+        {
+            "scan": "synthetic_anomaly_55",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.6190222097700675,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260630_104818",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.563404010705214,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260630_103126",
+            "actual": "anomaly",
+            "predicted": "normal",
+            "score": -0.5193740704894714,
+            "correct": false
+        },
+        {
+            "scan": "scan_20260624_104757",
+            "actual": "unknown",
+            "predicted": "anomaly",
+            "score": -0.5384,
+            "correct": null
+        },
+        {
+            "scan": "scan_20260624_104804",
+            "actual": "unknown",
+            "predicted": "anomaly",
+            "score": -0.5384,
+            "correct": null
+        },
+        {
+            "scan": "scan_20260624_122501",
+            "actual": "unknown",
+            "predicted": "anomaly",
+            "score": -0.5412,
+            "correct": null
+        },
+        {
+            "scan": "scan_20260625_112740",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5511,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260625_112804",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5511,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260625_120745",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5511,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260630_150433",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.5539,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260701_094339",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.556,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260701_143505",
+            "actual": "anomaly",
+            "predicted": "anomaly",
+            "score": -0.552,
+            "correct": true
+        },
+        {
+            "scan": "scan_20260703_145110",
+            "actual": "anomaly",
+            "predicted": "normal",
+            "score": -0.5091,
+            "correct": false
+        }
+    ]
+}
