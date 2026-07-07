@@ -1,0 +1,17 @@
+
+===================================================
+  FORENSIC EVIDENCE LOG
+===================================================
+Acquisition Time : 2026-06-09 15:09:48
+Examiner         : Student Forensic Tool v1.0
+Tool             : WhatsApp Recovery Script
+
+Database File    : D:\whatsapp_forensics\msgstore.db
+SHA-256 Hash     : 0ce0930ac8e3c687c5767dff7982904ae5eeb2252314794c2b0bc623ee706524
+
+WAL File         : D:\whatsapp_forensics\wal_file.db
+SHA-256 Hash     : 851bc6a249d24b9ee8e143e87de56aebc13226e609ae8f4305a2d2551ec4dcb3
+
+NOTE: If the hash of msgstore.db changes after
+this log was created, evidence may be tampered.
+===================================================

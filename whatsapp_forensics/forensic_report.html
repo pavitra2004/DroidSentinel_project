@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>WhatsApp Forensic Report</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 24px; color: #222; }
+  h1   { color: #0F6E56; }
+  .meta { background: #f5f5f5; padding: 12px 16px; border-radius: 8px; font-size: 13px; margin-bottom: 24px; }
+  .stats { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  .stat  { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px 20px; text-align: center; min-width: 120px; }
+  .stat-num { font-size: 28px; font-weight: 600; }
+  .stat-lbl { font-size: 12px; color: #666; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th  { background: #0F6E56; color: #fff; padding: 10px 12px; text-align: left; }
+  td  { padding: 9px 12px; border-bottom: 1px solid #eee; vertical-align: top; word-break: break-word; }
+  tr:hover td { background: #f9f9f9; }
+  .legend { margin-bottom: 16px; font-size: 12px; }
+  .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 4px; }
+</style>
+</head>
+<body>
+<h1>📱 WhatsApp Forensic Report</h1>
+<div class="meta">
+  <b>Generated:</b> 2026-06-09 15:09:48 &nbsp;|&nbsp;
+  <b>Tool:</b> WhatsApp Recovery Script v1.0 &nbsp;|&nbsp;
+  <b>DB Hash (SHA-256):</b> <code>0ce0930ac8e3c687c5767dff7982904a...</code>
+</div>
+<div class="stats">
+  <div class="stat">
+    <div class="stat-num" style="color:#1D9E75">63</div>
+    <div class="stat-lbl">Active messages</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" style="color:#BA7517">0</div>
+    <div class="stat-lbl">Deleted markers</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" style="color:#D85A30">3</div>
+    <div class="stat-lbl">WAL recovered</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num">66</div>
+    <div class="stat-lbl">Total entries</div>
+  </div>
+</div>
+<div class="legend">
+  <span class="dot" style="background:#1D9E75"></span>Active &nbsp;
+  <span class="dot" style="background:#BA7517"></span>Deleted marker &nbsp;
+  <span class="dot" style="background:#D85A30"></span>WAL recovered &nbsp;
+  <span class="dot" style="background:#185FA5"></span>Backup recovered
+</div>
+<table>
+  <thead>
+    <tr>
+      <th>Date / Time</th>
+      <th>Contact / Group</th>
+      <th>Direction</th>
+      <th>Message</th>
+      <th>Source</th>
+    </tr>
+  </thead>
+  <tbody>
+        <tr>
+            <td>2026-06-04 14:45:07</td>
+            <td>24678932443256@lid</td>
+            <td>Me</td>
+            <td>Hey</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 14:46:58</td>
+            <td>24678932443256@lid</td>
+            <td>Me</td>
+            <td>This message will be deleted</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 14:47:31</td>
+            <td>24678932443256@lid</td>
+            <td>Me</td>
+            <td>secret info here</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:10:26</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Hey</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:11:01</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am just testing whether it will work or not</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:18:32</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>these r just testing msgs</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:18:41</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>hello</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:20:49</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Hey</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:21:02</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am good</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:21:25</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Had lunch</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:26:43</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>message one forensics test</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:31:06</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>Form teams of 3–5 students at your discretion.
+    A student should not be part of more than one team.
+    Each team must designate a Team Captain.</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:31:25</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>We can't able to read the content of the image sir.</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:31:57</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>sammu came from school</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:39:51</td>
+            <td>🌹🌹तुळजा भवानी भक्तगण🌹🌹</td>
+            <td>Them</td>
+            <td>🚩🚩🌹🌹🌸🌸🕉️🕉️
+श्री तुळजाभवानीची आजची पूजा दिनांक04-06-2026 वार गुरुवार 
+🚩🚩🌹🌹🌸🌸🕉️🕉️</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:46:51</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>Dear students,
+
+Find the update below from Deloitte US India, all the shortlisted students are hereby informed to provide their team name and team leader details through the link below.
+
+
+Link: https://docs.google.com/forms/d/e/1FAIpQLSeMnvsuiIhAtXIweNAp-Uk4Tt9Nk6QmCiMlYb4M-yjmRntcPA/viewform?usp=pu</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:51:24</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>Sir can we get the team formation rules ?</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:51:58</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>sir only these students are selected, as the previous list of selected students was kinda long</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 15:52:38</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>total 47 selects</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 16:37:30</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>forensics test msg one</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 16:37:41</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>this msg will be recovered</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 16:37:48</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>secret deleted info</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 16:37:56</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>meet me at 5 pm</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-04 16:41:33</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>this was deleted by suspect</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 10:14:54</td>
+            <td>Deloitte Capstone_2027</td>
+            <td>Them</td>
+            <td>Anyone’s from mca dept?</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 10:49:03</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Heyy</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 10:49:13</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am pavitra</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:24:23</td>
+            <td>🌹🌹तुळजा भवानी भक्तगण🌹🌹</td>
+            <td>Them</td>
+            <td>🚩🚩🌹🌹🌸🌸🕉️🕉️
+श्री तुळजाभवानीची आजची पूजा दिनांक05-06-2026 वार शुक्रवार 
+🚩🚩🌹🌹🌸🌸🕉️🕉️</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:47:05</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Hey</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:47:10</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Hello</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:47:16</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>hii</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:47:23</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>What r u doing</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:47:30</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am good</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:47:45</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am just testing my project</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:52:52</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Heyaaaaaaaaaaaaaaaa</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:53:03</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am testing</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:53:16</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>This is forensics project</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:59:36</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Heyy</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:59:40</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Hello</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:59:45</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>How r u?</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 14:59:51</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>What r u doing</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:00:11</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>These r the test messages</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:03:48</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Helloooooo</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:04:02</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am testing whether it's working or not</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:08:27</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>This is my WhatsApp forensics project</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:08:37</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I will send some test msgs</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:08:56</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>I am checking whether it's working or not</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 15:53:34</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>https://www.instagram.com/reel/DZH__Rusxxy/?igsh=MWtwaW4yYWxjcXY4aA==</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 16:05:38</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>Good afternoon</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 16:05:47</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>This is the lunch time</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 16:06:16</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>is</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 16:09:12</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>https://www.instagram.com/reel/DZJ3S0vgDBQ/?igsh=MXgxM3huMTMxaHloag==</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 16:17:41</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>https://www.instagram.com/reel/DY2YyFovq24/?igsh=MWtjbHNpYzIwZXhyZg==</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-05 16:58:57</td>
+            <td>40407320768745@lid</td>
+            <td>Me</td>
+            <td>xyz</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 12:15:24</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>Where are you</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 12:15:36</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>Hello</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 12:15:41</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>Tell</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 12:15:43</td>
+            <td>40407320768745@lid</td>
+            <td>Them</td>
+            <td>Fast</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 12:28:00</td>
+            <td>265944425332905@lid</td>
+            <td>Them</td>
+            <td>Heyy</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 12:28:09</td>
+            <td>265944425332905@lid</td>
+            <td>Them</td>
+            <td>Can we eat in canteen</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 13:09:13</td>
+            <td>🌹🌹तुळजा भवानी भक्तगण🌹🌹</td>
+            <td>Them</td>
+            <td>🚩🚩🌹🌹🌸🌸🕉️🕉️
+श्री तुळजाभवानीची आजची पूजा दिनांक09-06-2026 वार मंगळवार 
+🚩🚩🌹🌹🌸🌸🕉️🕉️</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 13:30:46</td>
+            <td>ISFCR Summer Interns</td>
+            <td>Them</td>
+            <td>Dear students, 
+
+If you are taking leaves or going home early, please drop a mail or inform us.
+
+You should work 8 hours per day. If not able to work on a day, ensure you cover it up within the week</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>2026-06-09 14:00:23</td>
+            <td>ISFCR Summer Interns</td>
+            <td>Them</td>
+            <td>For leaves you should take prior approval.</td>
+            <td><span style="color:#1D9E75;font-weight:500">active</span></td>
+        </tr>
+        <tr>
+            <td>None</td>
+            <td>WAL recovered</td>
+            <td>Them</td>
+            <td>abcpqrefuef</td>
+            <td><span style="color:#D85A30;font-weight:500">WAL frame 0 page 1</span></td>
+        </tr>
+        <tr>
+            <td>None</td>
+            <td>WAL recovered</td>
+            <td>Them</td>
+            <td>This</td>
+            <td><span style="color:#D85A30;font-weight:500">WAL frame 1 page 2</span></td>
+        </tr>
+        <tr>
+            <td>None</td>
+            <td>WAL recovered</td>
+            <td>Them</td>
+            <td>R u sleeping</td>
+            <td><span style="color:#D85A30;font-weight:500">WAL frame 2 page 3</span></td>
+        </tr></tbody>
+</table>
+</body>
+</html>

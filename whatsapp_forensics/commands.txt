@@ -1,0 +1,35 @@
+1. Start Android Studio emulator
+2. adb devices
+3. adb -s emulator-5554 root
+4. adb -s emulator-5554 pull /data/data/com.whatsapp/databases/msgstore.db D:\whatsapp_forensics\msgstore.db
+5. cd D:\whatsapp_forensics
+5.5 copy D:\whatsapp_forensics\msgstore_backup.db D:\whatsapp_forensics\msgstore.db
+6. python simulate_wal.py
+7. python recovery.py
+8. streamlit run app.py
+9. Upload msgstore.db and wal_file.db in browser
+
+
+1. Start Android Studio emulator
+2. Open WhatsApp in emulator
+3. Send 3-5 fresh test messages    ← HERE
+4. adb devices
+5. adb -s emulator-5554 root
+6. adb -s emulator-5554 pull /data/data/com.whatsapp/databases/msgstore.db D:\whatsapp_forensics\msgstore.db
+7. cd D:\whatsapp_forensics
+8. copy D:\whatsapp_forensics\msgstore_backup.db D:\whatsapp_forensics\msgstore.db
+9. python simulate_wal.py          ← this auto-deletes your fresh messages
+10. python recovery.py
+11. streamlit run app.py
+12. Upload msgstore.db and wal_file.db
+
+
+
+1. adb -s emulator-5554 pull /data/data/com.whatsapp/databases/msgstore.db D:\whatsapp_forensics\msgstore.db
+2. cd D:\whatsapp_forensics
+3. copy D:\whatsapp_forensics\msgstore_backup.db D:\whatsapp_forensics\msgstore.db
+4. python simulate_wal.py
+5. python recovery.py
+6. streamlit run app.py
+7. Upload msgstore.db + wal_file.db
+
