@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="ohhpKvodtGxpzlgFBCL0" name="Page-1">
+    <mxGraphModel dx="4115" dy="1184" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="axb945g5N3NvPtk9CSYh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;Android Device(Emulator API 29) emulator-5554&amp;nbsp;" vertex="1">
+          <mxGeometry height="49" width="204" x="-2788.5" y="-120" as="geometry" />
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-2" edge="1" parent="1" source="axb945g5N3NvPtk9CSYh-1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2665.5" y="234" as="sourcePoint" />
+            <mxPoint x="-2686.5" y="-7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;Artifact Collector&lt;div&gt;packages.xml    usagestats/&lt;/div&gt;&lt;div&gt;notification_log.db    dropbox/&lt;/div&gt;&lt;div&gt;netstats/    runtime-perms.xml&lt;/div&gt;&lt;div&gt;iShredder/Shreddit/SecureEraser data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="109" width="217" x="-2795" y="-7" as="geometry" />
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="axb945g5N3NvPtk9CSYh-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2686" y="158" as="sourcePoint" />
+            <mxPoint x="-2716" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2867.5" y="157" as="sourcePoint" />
+            <mxPoint x="-2505.5" y="157" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2866" y="155" as="sourcePoint" />
+            <mxPoint x="-2866" y="231" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2507" y="153" as="sourcePoint" />
+            <mxPoint x="-2507" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;Rule Engine&lt;div&gt;&amp;nbsp;(11 Rules)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;R01 usagestats&lt;/div&gt;&lt;div&gt;R02 notification_log&lt;/div&gt;&lt;div&gt;R03 dropbox&lt;/div&gt;&lt;div&gt;&amp;nbsp;R04 netstats&lt;/div&gt;&lt;div&gt;&amp;nbsp;R05 factory reset&lt;/div&gt;&lt;div&gt;R06 packages.xml&lt;/div&gt;&lt;div&gt;R07 iShredder PDF&lt;/div&gt;&lt;div&gt;&amp;nbsp; R08 iShredder prefs&lt;/div&gt;&lt;div&gt;&amp;nbsp;R09 Shreddit ctr&lt;/div&gt;&lt;div&gt;R10 Secure Eraser&lt;/div&gt;&lt;div&gt;&amp;nbsp;R11 behavioral&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;Output:&lt;/div&gt;&lt;div&gt;Confidence %&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;NONE/LOW/MED/HIGH&lt;/div&gt;" vertex="1">
+          <mxGeometry height="268" width="152" x="-2926" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;ML Detector&lt;div&gt;&amp;nbsp;Isolation Forest&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;12 features&lt;/div&gt;&lt;div&gt;extracted from&lt;/div&gt;&lt;div&gt;scan artifacts&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Trained on normal&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; samples only &lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Output:&lt;/div&gt;&lt;div&gt;NORMAL / ANOMALY&lt;/div&gt;&lt;div&gt;+ raw score&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="213" width="147" x="-2573" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-10" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="axb945g5N3NvPtk9CSYh-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2850" y="538" as="sourcePoint" />
+            <mxPoint x="-2849" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="axb945g5N3NvPtk9CSYh-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2499" y="543" as="sourcePoint" />
+            <mxPoint x="-2840" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-12" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2855" y="538" as="sourcePoint" />
+            <mxPoint x="-2495" y="538" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2681" y="538" as="sourcePoint" />
+            <mxPoint x="-2681" y="587" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Streamlit Dashboard&lt;div&gt;Overview  │  Rule Engine  │  ML Analysis&lt;/div&gt;&lt;div&gt;Artifact Explorer  │  Scan History &amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="262" x="-2817.5" y="587" as="geometry" />
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-15" edge="1" parent="1" source="axb945g5N3NvPtk9CSYh-14" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-2654" y="700" as="sourcePoint" />
+            <mxPoint x="-2686" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="axb945g5N3NvPtk9CSYh-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PDF Forensic Report&lt;div&gt;(downloadable)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="49" width="142.5" x="-2757.75" y="692" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
