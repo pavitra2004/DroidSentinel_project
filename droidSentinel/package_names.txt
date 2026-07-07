@@ -1,0 +1,3 @@
+com.projectstar.ishredder.android.standard
+com.palmtronix.shreddit.v1
+com.aiuspaktyn.secureeraser
