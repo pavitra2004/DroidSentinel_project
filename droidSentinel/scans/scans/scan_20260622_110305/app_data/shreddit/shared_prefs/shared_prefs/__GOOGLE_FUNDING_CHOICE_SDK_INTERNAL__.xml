@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="stored_info">
+        <string>IDFA_freqCapNumViews</string>
+        <string>UMP_CoMoAdStoragePurposeConsentStatus</string>
+        <string>IABTCF_TCString</string>
+        <string>UMP_CoMoAnalyticsStoragePurposeConsentStatus</string>
+        <string>UMP_CoMoAdPersonalizationPurposeConsentStatus</string>
+        <string>UMP_CoMoAdUserDataPurposeConsentStatus</string>
+        <string>IABTCF_AddtlConsent</string>
+        <string>IABTCF_idfaFlowControl</string>
+    </set>
+    <string name="privacy_options_requirement_status">NOT_REQUIRED</string>
+    <set name="written_values">
+        <string>IABTCF_gdprApplies</string>
+        <string>UMP_consentModeValues</string>
+        <string>IABTCF_CmpSdkID</string>
+    </set>
+    <boolean name="is_pub_misconfigured" value="false" />
+    <int name="consent_status" value="1" />
+</map>

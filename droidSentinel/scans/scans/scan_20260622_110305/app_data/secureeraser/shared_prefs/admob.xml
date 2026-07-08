@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="request_in_session_count" value="0" />
+    <long name="first_ad_req_time_ms" value="1782106149387" />
+    <long name="app_last_background_time_ms" value="1782106154412" />
+</map>

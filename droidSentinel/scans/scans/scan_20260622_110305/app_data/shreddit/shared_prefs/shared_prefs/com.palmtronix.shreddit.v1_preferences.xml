@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="shredjob.count" value="2" />
+    <int name="tooltip.flags.grp1" value="1" />
+    <int name="IABTCF_gdprApplies" value="0" />
+    <string name="UMP_consentModeValues">4444</string>
+    <int name="IABTCF_CmpSdkID" value="300" />
+    <int name="jobs.under.progress" value="0" />
+    <int name="app.pre.gold" value="95" />
+</map>
