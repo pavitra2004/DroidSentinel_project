@@ -1,0 +1,53 @@
+{
+    "device_info": {
+        "model": "Android SDK built for x86",
+        "android_version": "10",
+        "api_level": "29",
+        "serial": "EMULATOR36X6X11X0",
+        "build_id": "QSR1.211112.011",
+        "scan_time": "2026-06-30 15:04:33"
+    },
+    "system_artifacts": {
+        "packages_xml": {
+            "success": true,
+            "size": 693903
+        },
+        "packages_list": {
+            "success": true,
+            "size": 23578
+        },
+        "usagestats": {
+            "success": true,
+            "size": 23575
+        },
+        "dropbox": {
+            "success": true,
+            "size": 101638
+        },
+        "notification_log": {
+            "success": true,
+            "size": 20480
+        },
+        "netstats": {
+            "success": true,
+            "size": 4135
+        },
+        "runtime_permissions": {
+            "success": true,
+            "size": 31868
+        }
+    },
+    "app_data": {
+        "iShredder": {
+            "installed": false
+        },
+        "Shreddit": {
+            "installed": false
+        },
+        "Secure Eraser": {
+            "installed": false
+        }
+    },
+    "factory_reset_detected": false,
+    "scan_folder": "D:\\DroidSentinel\\scans\\scan_20260630_150433"
+}

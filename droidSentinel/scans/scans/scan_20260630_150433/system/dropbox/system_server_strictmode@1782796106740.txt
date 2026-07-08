@@ -1,0 +1,32 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 32196
+Loop-Violation-Number: 6
+Duration-Millis: 109739
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1138)
+	at android.database.sqlite.SQLiteConnection.executeForString(SQLiteConnection.java:733)
+	at android.database.sqlite.SQLiteConnection.setSyncMode(SQLiteConnection.java:359)
+	at android.database.sqlite.SQLiteConnection.setWalModeFromConfiguration(SQLiteConnection.java:318)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:224)
+	at android.database.sqlite.SQLiteConnection.open(SQLiteConnection.java:197)
+	at android.database.sqlite.SQLiteConnectionPool.openConnectionLocked(SQLiteConnectionPool.java:505)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:206)
+	at android.database.sqlite.SQLiteConnectionPool.open(SQLiteConnectionPool.java:198)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:915)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:895)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:759)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:748)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:374)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:341)
+	at com.android.server.net.watchlist.WatchlistReportDbHelper.getAggregatedRecords(WatchlistReportDbHelper.java:151)
+	at com.android.server.net.watchlist.WatchlistLoggingHandler.tryAggregateRecords(WatchlistLoggingHandler.java:268)
+	at com.android.server.net.watchlist.WatchlistLoggingHandler.handleMessage(WatchlistLoggingHandler.java:118)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+
