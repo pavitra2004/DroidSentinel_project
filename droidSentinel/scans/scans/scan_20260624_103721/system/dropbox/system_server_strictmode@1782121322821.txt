@@ -1,0 +1,21 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 22715170
+Loop-Violation-Number: 8
+Duration-Millis: 2
+
+android.os.strictmode.DiskWriteViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onWriteToDisk(StrictMode.java:1512)
+	at libcore.io.BlockGuardOs.remove(BlockGuardOs.java:338)
+	at java.io.UnixFileSystem.delete(UnixFileSystem.java:331)
+	at java.io.File.delete(File.java:1037)
+	at android.util.AtomicFile.finishWrite(AtomicFile.java:158)
+	at com.android.server.wm.AppWarnings.writeConfigToFileAmsThread(AppWarnings.java:497)
+	at com.android.server.wm.AppWarnings.access$500(AppWarnings.java:49)
+	at com.android.server.wm.AppWarnings$ConfigHandler.handleMessage(AppWarnings.java:448)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+
