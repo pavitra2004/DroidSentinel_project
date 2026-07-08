@@ -1,0 +1,23 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 81474
+Loop-Violation-Number: 4
+Duration-Millis: 228
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at libcore.io.BlockGuardOs.stat(BlockGuardOs.java:387)
+	at java.io.UnixFileSystem.getLength(UnixFileSystem.java:298)
+	at java.io.File.length(File.java:970)
+	at com.android.server.am.ActivityManagerService.dumpJavaTracesTombstoned(ActivityManagerService.java:3894)
+	at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:3932)
+	at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:3827)
+	at com.android.server.am.ProcessRecord.appNotResponding(ProcessRecord.java:1505)
+	at com.android.server.am.BroadcastQueue$AppNotResponding.run(BroadcastQueue.java:208)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+

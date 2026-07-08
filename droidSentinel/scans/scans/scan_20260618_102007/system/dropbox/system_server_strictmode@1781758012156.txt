@@ -1,0 +1,18 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 53436
+
+android.os.strictmode.CredentialProtectedWhileLockedViolation: Accessed credential protected path /data/system_ce/0/snapshots/2_reduced.jpg while user 0 was locked
+	at android.os.StrictMode.onCredentialProtectedPathAccess(StrictMode.java:2163)
+	at android.os.StrictMode.access$1700(StrictMode.java:150)
+	at android.os.StrictMode$5.onPathAccess(StrictMode.java:1813)
+	at libcore.io.BlockGuardOs.remove(BlockGuardOs.java:339)
+	at java.io.UnixFileSystem.delete(UnixFileSystem.java:331)
+	at java.io.File.delete(File.java:1037)
+	at com.android.server.wm.TaskSnapshotPersister.deleteSnapshot(TaskSnapshotPersister.java:228)
+	at com.android.server.wm.TaskSnapshotPersister.access$900(TaskSnapshotPersister.java:50)
+	at com.android.server.wm.TaskSnapshotPersister$DeleteWriteQueueItem.write(TaskSnapshotPersister.java:421)
+	at com.android.server.wm.TaskSnapshotPersister$1.run(TaskSnapshotPersister.java:257)
+
+Accessed credential protected path /data/system_ce/0/snapshots/2_reduced.jpg while user 0 was locked
