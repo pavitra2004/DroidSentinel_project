@@ -1,0 +1,79 @@
+{
+    "device_info": {
+        "model": "Android SDK built for x86",
+        "android_version": "10",
+        "api_level": "29",
+        "serial": "EMULATOR36X6X11X0",
+        "build_id": "QSR1.211112.011",
+        "scan_time": "2026-06-25 12:07:45"
+    },
+    "system_artifacts": {
+        "packages_xml": {
+            "success": true,
+            "size": 713536
+        },
+        "packages_list": {
+            "success": true,
+            "size": 24175
+        },
+        "usagestats": {
+            "success": true,
+            "size": 70838
+        },
+        "dropbox": {
+            "success": true,
+            "size": 18000
+        },
+        "notification_log": {
+            "success": true,
+            "size": 40960
+        },
+        "netstats": {
+            "success": true,
+            "size": 9547
+        },
+        "runtime_permissions": {
+            "success": true,
+            "size": 34621
+        }
+    },
+    "app_data": {
+        "iShredder": {
+            "installed": true,
+            "paths": {
+                "shared_prefs": {
+                    "success": false,
+                    "reason": "App not run yet \u2014 no data created"
+                },
+                "files/reports": {
+                    "success": false,
+                    "reason": "App not run yet \u2014 no data created"
+                }
+            }
+        },
+        "Shreddit": {
+            "installed": true,
+            "paths": {
+                "shared_prefs": {
+                    "success": false,
+                    "reason": "App not run yet \u2014 no data created"
+                },
+                "no_backup": {
+                    "success": false,
+                    "reason": "App not run yet \u2014 no data created"
+                }
+            }
+        },
+        "Secure Eraser": {
+            "installed": true,
+            "paths": {
+                "shared_prefs": {
+                    "success": false,
+                    "reason": "App not run yet \u2014 no data created"
+                }
+            }
+        }
+    },
+    "factory_reset_detected": false,
+    "scan_folder": "D:\\DroidSentinel\\scans\\scan_20260625_120745"
+}

@@ -1,0 +1,150 @@
+{
+    "analysis_time": "2026-06-25 12:07:52",
+    "rules": [
+        {
+            "rule_id": "R01",
+            "rule_name": "Wiping App Usage Session Detected in usagestats",
+            "artifact": "usagestats/",
+            "fired": true,
+            "confidence": "HIGH",
+            "weight": 25,
+            "score": 25,
+            "evidence": [
+                "Shreddit (com.palmtronix.shreddit.v1) usage recorded in usagestats file 1782310982756 \u2014 not present in baseline",
+                "Secure Eraser (com.aiuspaktyn.secureeraser) usage recorded in usagestats file 1782310982756 \u2014 not present in baseline",
+                "iShredder (com.projectstar.ishredder.android.standard) usage recorded in usagestats file 1782310982756 \u2014 not present in baseline"
+            ]
+        },
+        {
+            "rule_id": "R02",
+            "rule_name": "Wiping App Ghost Trace in notification_log.db",
+            "artifact": "notification_log.db",
+            "fired": true,
+            "confidence": "HIGH",
+            "weight": 30,
+            "score": 30,
+            "evidence": [
+                "Shreddit notification recorded at 2026-06-18 10:39:50 \u2014 ghost trace confirmed",
+                "Shreddit notification recorded at 2026-06-18 10:39:50 \u2014 ghost trace confirmed",
+                "Shreddit notification recorded at 2026-06-18 10:39:50 \u2014 ghost trace confirmed",
+                "iShredder notification recorded at 2026-06-18 10:45:07 \u2014 ghost trace confirmed",
+                "iShredder notification recorded at 2026-06-18 10:45:07 \u2014 ghost trace confirmed",
+                "iShredder notification recorded at 2026-06-18 10:45:07 \u2014 ghost trace confirmed"
+            ]
+        },
+        {
+            "rule_id": "R03",
+            "rule_name": "New System Log Entries in Dropbox",
+            "artifact": "dropbox/",
+            "fired": true,
+            "confidence": "MEDIUM",
+            "weight": 15,
+            "score": 15,
+            "evidence": [
+                "41 new dropbox entries since baseline (baseline: 84, current: 41)"
+            ]
+        },
+        {
+            "rule_id": "R04",
+            "rule_name": "Suspicious Network Activity Detected in netstats",
+            "artifact": "netstats/",
+            "fired": true,
+            "confidence": "MEDIUM",
+            "weight": 20,
+            "score": 20,
+            "evidence": [
+                "netstats grew by 3,925 bytes since baseline (baseline: 5,622, current: 9,547) \u2014 indicates network activity from installed apps"
+            ]
+        },
+        {
+            "rule_id": "R05",
+            "rule_name": "Factory Reset Detected",
+            "artifact": "/data/system/factory_reset",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 35,
+            "score": 0,
+            "evidence": [
+                "No factory_reset file found \u2014 device not reset via Android Settings"
+            ]
+        },
+        {
+            "rule_id": "R06",
+            "rule_name": "packages.xml Size Reduction \u2014 App Removal Detected",
+            "artifact": "packages.xml",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 25,
+            "score": 0,
+            "evidence": [
+                "No packages.xml reduction (baseline: 703,366, current: 713,536)"
+            ]
+        },
+        {
+            "rule_id": "R07",
+            "rule_name": "iShredder Erasure PDF Report Found",
+            "artifact": "iShredder/files/reports/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 35,
+            "score": 0,
+            "evidence": [
+                "iShredder reports folder not found \u2014 app not run or data cleared"
+            ]
+        },
+        {
+            "rule_id": "R08",
+            "rule_name": "iShredder Preferences Wiping Log Found",
+            "artifact": "iShredder/shared_prefs/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 35,
+            "score": 0,
+            "evidence": [
+                "iShredder shared_prefs not found"
+            ]
+        },
+        {
+            "rule_id": "R09",
+            "rule_name": "Shreddit Wiping Job Counter Detected",
+            "artifact": "Shreddit/shared_prefs/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 20,
+            "score": 0,
+            "evidence": [
+                "Shreddit shared_prefs not found"
+            ]
+        },
+        {
+            "rule_id": "R10",
+            "rule_name": "Secure Eraser Usage Timestamps Detected",
+            "artifact": "Secure Eraser/shared_prefs/admob.xml",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 20,
+            "score": 0,
+            "evidence": [
+                "Secure Eraser admob.xml not found \u2014 app not run"
+            ]
+        },
+        {
+            "rule_id": "R11",
+            "rule_name": "Unknown Wiping App Behavioral Detection",
+            "artifact": "packages.xml + usagestats/",
+            "fired": true,
+            "confidence": "MEDIUM",
+            "weight": 25,
+            "score": 25,
+            "evidence": [
+                "Unknown wiping app detected: com.cbinnovations.androideraser \u2014 newly installed since baseline, has storage permissions and no network permission (behavioral signature matches file wiping)"
+            ]
+        }
+    ],
+    "total_score": 115,
+    "max_score": 285,
+    "confidence_pct": 40.4,
+    "overall_confidence": "MEDIUM",
+    "verdict": "\u26a0\ufe0f  SUSPICIOUS ACTIVITY DETECTED",
+    "fired_count": 5
+}
