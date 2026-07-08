@@ -1,0 +1,143 @@
+{
+    "analysis_time": "2026-06-30 10:31:33",
+    "rules": [
+        {
+            "rule_id": "R01",
+            "rule_name": "Wiping App Usage Session Detected in usagestats",
+            "artifact": "usagestats/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 25,
+            "score": 0,
+            "evidence": [
+                "No new wiping app usage detected in usagestats"
+            ]
+        },
+        {
+            "rule_id": "R02",
+            "rule_name": "Wiping App Ghost Trace in notification_log.db",
+            "artifact": "notification_log.db",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 30,
+            "score": 0,
+            "evidence": [
+                "No new wiping app notifications found"
+            ]
+        },
+        {
+            "rule_id": "R03",
+            "rule_name": "New System Log Entries in Dropbox",
+            "artifact": "dropbox/",
+            "fired": true,
+            "confidence": "MEDIUM",
+            "weight": 15,
+            "score": 15,
+            "evidence": [
+                "66 new dropbox entries since baseline (baseline: 84, current: 66)"
+            ]
+        },
+        {
+            "rule_id": "R04",
+            "rule_name": "Suspicious Network Activity Detected in netstats",
+            "artifact": "netstats/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 20,
+            "score": 0,
+            "evidence": [
+                "No significant netstats growth (baseline: 5,622, current: 4,039)"
+            ]
+        },
+        {
+            "rule_id": "R05",
+            "rule_name": "Factory Reset Detected",
+            "artifact": "/data/system/factory_reset",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 35,
+            "score": 0,
+            "evidence": [
+                "No factory_reset file found \u2014 device not reset via Android Settings"
+            ]
+        },
+        {
+            "rule_id": "R06",
+            "rule_name": "packages.xml Size Reduction \u2014 App Removal Detected",
+            "artifact": "packages.xml",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 25,
+            "score": 0,
+            "evidence": [
+                "No packages.xml reduction (baseline: 703,366, current: 706,358)"
+            ]
+        },
+        {
+            "rule_id": "R07",
+            "rule_name": "iShredder Erasure PDF Report Found",
+            "artifact": "iShredder/files/reports/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 35,
+            "score": 0,
+            "evidence": [
+                "iShredder reports folder not found \u2014 app not run or data cleared"
+            ]
+        },
+        {
+            "rule_id": "R08",
+            "rule_name": "iShredder Preferences Wiping Log Found",
+            "artifact": "iShredder/shared_prefs/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 35,
+            "score": 0,
+            "evidence": [
+                "iShredder shared_prefs not found"
+            ]
+        },
+        {
+            "rule_id": "R09",
+            "rule_name": "Shreddit Wiping Job Counter Detected",
+            "artifact": "Shreddit/shared_prefs/",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 20,
+            "score": 0,
+            "evidence": [
+                "Shreddit shared_prefs not found"
+            ]
+        },
+        {
+            "rule_id": "R10",
+            "rule_name": "Secure Eraser Usage Timestamps Detected",
+            "artifact": "Secure Eraser/shared_prefs/admob.xml",
+            "fired": false,
+            "confidence": "NONE",
+            "weight": 20,
+            "score": 0,
+            "evidence": [
+                "Secure Eraser admob.xml not found \u2014 app not run"
+            ]
+        },
+        {
+            "rule_id": "R11",
+            "rule_name": "Unknown Wiping App Behavioral Detection",
+            "artifact": "packages.xml + usagestats/",
+            "fired": true,
+            "confidence": "MEDIUM",
+            "weight": 25,
+            "score": 25,
+            "evidence": [
+                "Unknown wiping app detected: com.cbinnovations.androideraser \u2014 newly installed since baseline, has storage permissions and no network permission (behavioral signature matches file wiping)"
+            ]
+        }
+    ],
+    "total_score": 40,
+    "max_score": 285,
+    "confidence_pct": 14.0,
+    "overall_confidence": "NONE",
+    "verdict": "\u2705 NO ANTI-FORENSIC ACTIVITY DETECTED",
+    "fired_count": 2
+}

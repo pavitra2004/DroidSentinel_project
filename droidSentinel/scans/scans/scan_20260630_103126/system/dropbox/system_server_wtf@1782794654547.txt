@@ -1,0 +1,18 @@
+Process: system_server
+Subject: ActivityManager
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+
+android.util.Log$TerribleFailure: Sending non-protected broadcast com.android.systemui.demo from system 2310:com.android.systemui/u0a114 pkg com.android.systemui
+	at android.util.Log.wtf(Log.java:309)
+	at android.util.Log.wtf(Log.java:303)
+	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:14782)
+	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:15330)
+	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:14800)
+	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:15566)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:1950)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+	at android.os.Binder.execTransact(Binder.java:994)
+Caused by: java.lang.Throwable
+	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:14783)
+	... 7 more

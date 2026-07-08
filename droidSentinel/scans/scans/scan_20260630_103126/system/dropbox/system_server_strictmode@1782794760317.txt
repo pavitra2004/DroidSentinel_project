@@ -1,0 +1,22 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 32428
+Loop-Violation-Number: 1
+Duration-Millis: 121573
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at java.io.UnixFileSystem.getBooleanAttributes(UnixFileSystem.java:250)
+	at java.io.File.isDirectory(File.java:845)
+	at android.app.ContextImpl.getDatabasePath(ContextImpl.java:848)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:371)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:341)
+	at com.android.server.net.watchlist.WatchlistReportDbHelper.getAggregatedRecords(WatchlistReportDbHelper.java:151)
+	at com.android.server.net.watchlist.WatchlistLoggingHandler.tryAggregateRecords(WatchlistLoggingHandler.java:268)
+	at com.android.server.net.watchlist.WatchlistLoggingHandler.handleMessage(WatchlistLoggingHandler.java:118)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+

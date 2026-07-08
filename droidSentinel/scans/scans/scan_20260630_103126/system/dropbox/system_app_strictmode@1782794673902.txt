@@ -1,0 +1,44 @@
+Process: android.process.media
+PID: 3514
+UID: 10060
+Flags: 0x38c83e45
+Package: com.android.providers.media v1023 (10)
+Package: com.android.providers.downloads v29 (10)
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 67141
+
+android.os.strictmode.LeakedClosableViolation: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+	at android.os.StrictMode$AndroidCloseGuardReporter.report(StrictMode.java:1877)
+	at dalvik.system.CloseGuard.warnIfOpen(CloseGuard.java:286)
+	at android.database.sqlite.SQLiteDatabase.dispose(SQLiteDatabase.java:341)
+	at android.database.sqlite.SQLiteDatabase.finalize(SQLiteDatabase.java:325)
+	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:289)
+	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:276)
+	at java.lang.Daemons$Daemon.run(Daemons.java:137)
+	at java.lang.Thread.run(Thread.java:919)
+Caused by: java.lang.Throwable: Explicit termination method 'close' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:237)
+	at android.database.sqlite.SQLiteDatabase.openInner(SQLiteDatabase.java:916)
+	at android.database.sqlite.SQLiteDatabase.open(SQLiteDatabase.java:895)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:759)
+	at android.database.sqlite.SQLiteDatabase.openDatabase(SQLiteDatabase.java:748)
+	at android.database.sqlite.SQLiteOpenHelper.getDatabaseLocked(SQLiteOpenHelper.java:374)
+	at android.database.sqlite.SQLiteOpenHelper.getReadableDatabase(SQLiteOpenHelper.java:341)
+	at com.android.providers.downloads.DownloadProvider.reconcileRemovedUidEntries(DownloadProvider.java:572)
+	at com.android.providers.downloads.DownloadProvider.onCreate(DownloadProvider.java:563)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:2092)
+	at android.content.ContentProvider.attachInfo(ContentProvider.java:2066)
+	at android.app.ActivityThread.installProvider(ActivityThread.java:6983)
+	at android.app.ActivityThread.installContentProviders(ActivityThread.java:6528)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6445)
+	at android.app.ActivityThread.access$1300(ActivityThread.java:219)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1859)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
