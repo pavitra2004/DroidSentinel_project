@@ -1,0 +1,46 @@
+isPrevious: false
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+Hardware: goldfish_x86
+Revision: 0
+Bootloader: unknown
+Radio: 1.0.0.0
+Kernel: Linux version 4.14.175-gdbec1739 (build-user@build-host) (Android (5900059 based on r365631c) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 207d7abc1a2abf3ef8d4301736d6a7ebc224a290) (based on LLVM 9.0.8svn)) #1 SMP PREEMPT Tue Nov 22 00:28:47 UTC 2022
+
+e2fsck 1.44.4 (18-Aug-2018)
+
+Pass 1: Checking inodes, blocks, and sizes
+
+Pass 2: Checking directory structure
+
+Pass 3: Checking directory connectivity
+
+/lost+found not found.  Create? yes
+
+
+
+Pass 4: Checking reference counts
+
+Pass 5: Checking group summary information
+
+[QUOTA WARNING] Usage inconsistent for ID 0:actual (28672, 6) != expected (24576, 5)
+
+Update quota info for quota type 0? yes
+
+
+
+[QUOTA WARNING] Usage inconsistent for ID 0:actual (28672, 6) != expected (24576, 5)
+
+Update quota info for quota type 1? yes
+
+
+
+
+
+/dev/block/vdc: ***** FILE SYSTEM WAS MODIFIED *****
+
+/dev/block/vdc: 20/655360 files (0.0% non-contiguous), 79674/2621440 blocks
+
+e2fsck terminated by exit(1)
+
+
+fs_stat,/dev/block/vdc,0x413
