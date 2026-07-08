@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="reports_v2">{&quot;id&quot;:&quot;836E059D-8487-470A-82B8-5A8C1325BFC5&quot;,&quot;startDate&quot;:&quot;20260622105157&quot;,&quot;endDate&quot;:&quot;20260622105158&quot;,&quot;appCode&quot;:7021,&quot;appEdition&quot;:&quot;FREE&quot;,&quot;appVersion&quot;:&quot;7.0.11&quot;,&quot;deviceVersion&quot;:&quot;10 (29)&quot;,&quot;method&quot;:{&quot;mName&quot;:2131952346,&quot;mDescription&quot;:2131952347,&quot;mCycles&quot;:1,&quot;mPattern&quot;:[[-1]],&quot;mValue&quot;:&quot;Zufall&quot;,&quot;mVersion&quot;:&quot;STD&quot;},&quot;totalErrors&quot;:0,&quot;totalItemsWritten&quot;:3,&quot;totalBytesWritten&quot;:42,&quot;totalSuccess&quot;:true,&quot;reportDetail&quot;:[{&quot;name&quot;:&quot;/storage/emulated/0/TestFiles_A1/file1.txt&quot;,&quot;type&quot;:&quot;Selected Files \u0026 Folders&quot;,&quot;success&quot;:true,&quot;cancelled&quot;:false,&quot;errorMessage&quot;:&quot;&quot;},{&quot;name&quot;:&quot;/storage/emulated/0/TestFiles_A1/file2.txt&quot;,&quot;type&quot;:&quot;Selected Files \u0026 Folders&quot;,&quot;success&quot;:true,&quot;cancelled&quot;:false,&quot;errorMessage&quot;:&quot;&quot;},{&quot;name&quot;:&quot;/storage/emulated/0/TestFiles_A1/file3.txt&quot;,&quot;type&quot;:&quot;Selected Files \u0026 Folders&quot;,&quot;success&quot;:true,&quot;cancelled&quot;:false,&quot;errorMessage&quot;:&quot;&quot;}]}</string>
+    <string name="myps_key_packages">com.protectstar.ishredder.android</string>
+    <int name="files_explorer_sort" value="3" />
+    <int name="files_explorer_order" value="0" />
+    <boolean name="firstLaunch" value="false" />
+    <string name="module_updater_url">https://www.protectstar.com/download/android/ishredder/update-changelog.json</string>
+</map>
