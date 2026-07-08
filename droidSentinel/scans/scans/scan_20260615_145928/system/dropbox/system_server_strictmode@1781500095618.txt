@@ -1,0 +1,28 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 108662
+Loop-Violation-Number: 2
+Duration-Millis: 734
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at java.io.UnixFileSystem.getLastModifiedTime(UnixFileSystem.java:289)
+	at java.io.File.lastModified(File.java:939)
+	at com.android.server.am.-$$Lambda$yk1Ms9fVlF6PvprMwF2rru-dw4Q.applyAsLong(Unknown Source:2)
+	at java.util.Comparator.lambda$comparingLong$6043328a$1(Comparator.java:511)
+	at java.util.-$$Lambda$Comparator$4V5k8aLimtS0VsEILEAqQ9UGZYo.compare(Unknown Source:2)
+	at java.util.Collections$ReverseComparator2.compare(Collections.java:5235)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.util.TimSort.sort(TimSort.java:220)
+	at java.util.Arrays.sort(Arrays.java:1424)
+	at com.android.server.am.ActivityManagerService.maybePruneOldTraces(ActivityManagerService.java:3869)
+	at com.android.server.am.ActivityManagerService.dumpStackTraces(ActivityManagerService.java:3817)
+	at com.android.server.am.ProcessRecord.appNotResponding(ProcessRecord.java:1505)
+	at com.android.server.am.BroadcastQueue$AppNotResponding.run(BroadcastQueue.java:208)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+
