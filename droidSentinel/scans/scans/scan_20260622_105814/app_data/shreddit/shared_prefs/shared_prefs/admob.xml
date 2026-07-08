@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="request_in_session_count" value="1" />
+    <long name="first_ad_req_time_ms" value="1782106035605" />
+    <string name="inspector_info">{&quot;isTestMode&quot;:true,&quot;gesture&quot;:&quot;NONE&quot;,&quot;networkExtras&quot;:&quot;{}&quot;,&quot;networkExtrasExpirationSecs&quot;:9223372036854775807}</string>
+    <long name="app_last_background_time_ms" value="1782106042222" />
+</map>
