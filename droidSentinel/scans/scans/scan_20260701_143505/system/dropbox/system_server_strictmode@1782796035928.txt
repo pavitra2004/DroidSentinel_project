@@ -1,0 +1,27 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 70013
+
+android.os.strictmode.LeakedClosableViolation: A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.
+	at android.os.StrictMode$AndroidCloseGuardReporter.report(StrictMode.java:1877)
+	at dalvik.system.CloseGuard.warnIfOpen(CloseGuard.java:286)
+	at android.view.SurfaceControl.finalize(SurfaceControl.java:904)
+	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:289)
+	at java.lang.Daemons$FinalizerDaemon.runInternal(Daemons.java:276)
+	at java.lang.Daemons$Daemon.run(Daemons.java:137)
+	at java.lang.Thread.run(Thread.java:919)
+Caused by: java.lang.Throwable: Explicit termination method 'release' not called
+	at dalvik.system.CloseGuard.open(CloseGuard.java:237)
+	at android.view.SurfaceControl.<init>(SurfaceControl.java:803)
+	at android.view.SurfaceControl.<init>(SurfaceControl.java:77)
+	at android.view.SurfaceControl$Builder.build(SurfaceControl.java:531)
+	at com.android.server.wm.InputConsumerImpl.<init>(InputConsumerImpl.java:95)
+	at com.android.server.wm.InputMonitor.createInputConsumer(InputMonitor.java:234)
+	at com.android.server.wm.WindowManagerService.createInputConsumer(WindowManagerService.java:5750)
+	at android.view.IWindowManager$Stub.onTransact(IWindowManager.java:2061)
+	at com.android.server.wm.WindowManagerService.onTransact(WindowManagerService.java:1198)
+	at android.os.Binder.execTransactInternal(Binder.java:1021)
+	at android.os.Binder.execTransact(Binder.java:994)
+
+A resource was acquired at attached stack trace but never released. See java.io.Closeable for information on avoiding resource leaks.

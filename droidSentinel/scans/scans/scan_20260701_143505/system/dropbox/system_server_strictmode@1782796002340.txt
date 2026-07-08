@@ -1,0 +1,35 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 37343
+Loop-Violation-Number: 1
+Duration-Millis: 265
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:69)
+	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:281)
+	at java.io.File.exists(File.java:815)
+	at android.content.pm.RegisteredServicesCache.findOrCreateUserLocked(RegisteredServicesCache.java:125)
+	at android.content.pm.RegisteredServicesCache.findOrCreateUserLocked(RegisteredServicesCache.java:110)
+	at android.content.pm.RegisteredServicesCache.getAllServices(RegisteredServicesCache.java:351)
+	at com.android.server.accounts.AccountManagerService.getTypesForCaller(AccountManagerService.java:5548)
+	at com.android.server.accounts.AccountManagerService.getTypesManagedByCaller(AccountManagerService.java:5539)
+	at com.android.server.accounts.AccountManagerService.getAccountsAsUserForPackage(AccountManagerService.java:4299)
+	at com.android.server.accounts.AccountManagerService.getAccountsAsUser(AccountManagerService.java:4266)
+	at com.android.server.accounts.AccountManagerService.cancelAccountAccessRequestNotificationIfNeeded(AccountManagerService.java:429)
+	at com.android.server.accounts.AccountManagerService.access$700(AccountManagerService.java:144)
+	at com.android.server.accounts.AccountManagerService$4.onOpChanged(AccountManagerService.java:362)
+	at android.app.AppOpsManager$1.opChanged(AppOpsManager.java:4735)
+	at com.android.server.appop.AppOpsService.notifyOpChanged(AppOpsService.java:1474)
+	at com.android.server.appop.AppOpsService.lambda$FYLTtxqrHmv8Y5UdZ9ybXKsSJhs(Unknown Source:0)
+	at com.android.server.appop.-$$Lambda$AppOpsService$FYLTtxqrHmv8Y5UdZ9ybXKsSJhs.accept(Unknown Source:18)
+	at com.android.internal.util.function.pooled.PooledLambdaImpl.doInvoke(PooledLambdaImpl.java:317)
+	at com.android.internal.util.function.pooled.PooledLambdaImpl.invoke(PooledLambdaImpl.java:195)
+	at com.android.internal.util.function.pooled.OmniFunction.run(OmniFunction.java:86)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+

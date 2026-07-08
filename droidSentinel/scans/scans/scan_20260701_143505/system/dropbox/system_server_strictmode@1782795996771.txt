@@ -1,0 +1,27 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 32045
+Loop-Violation-Number: 1
+Duration-Millis: 23
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at libcore.io.BlockGuardOs.access(BlockGuardOs.java:69)
+	at java.io.UnixFileSystem.checkAccess(UnixFileSystem.java:281)
+	at java.io.File.exists(File.java:815)
+	at android.util.AtomicFile.openRead(AtomicFile.java:225)
+	at com.android.server.wm.DisplayWindowSettings$AtomicFileStorage.openRead(DisplayWindowSettings.java:697)
+	at com.android.server.wm.DisplayWindowSettings.readSettings(DisplayWindowSettings.java:441)
+	at com.android.server.wm.DisplayWindowSettings.<init>(DisplayWindowSettings.java:164)
+	at com.android.server.wm.DisplayWindowSettings.<init>(DisplayWindowSettings.java:157)
+	at com.android.server.wm.WindowManagerService.<init>(WindowManagerService.java:1028)
+	at com.android.server.wm.WindowManagerService.lambda$main$0(WindowManagerService.java:978)
+	at com.android.server.wm.-$$Lambda$WindowManagerService$wGh8jzmWqrd_7ruovSXZoiIk1s0.run(Unknown Source:14)
+	at android.os.Handler$BlockingRunnable.run(Handler.java:906)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+
