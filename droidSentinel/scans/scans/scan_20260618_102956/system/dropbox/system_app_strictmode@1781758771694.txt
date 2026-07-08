@@ -1,0 +1,37 @@
+Process: com.android.contacts
+PID: 8470
+UID: 10108
+Flags: 0x30c8be45
+Package: com.android.contacts v10731 (1.7.31)
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 813023
+
+android.os.strictmode.ContentUriWithoutPermissionViolation: content://com.android.contacts/contacts exposed beyond app through Intent.getData() without permission grant flags; did you forget FLAG_GRANT_READ_URI_PERMISSION?
+	at android.os.StrictMode.onContentUriWithoutPermission(StrictMode.java:2091)
+	at android.net.Uri.checkContentUriWithoutPermission(Uri.java:2400)
+	at android.content.Intent.prepareToLeaveProcess(Intent.java:10803)
+	at android.content.Intent.prepareToLeaveProcess(Intent.java:10744)
+	at android.app.Instrumentation.execStartActivity(Instrumentation.java:1703)
+	at android.app.Activity.startActivityForResult(Activity.java:5192)
+	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:676)
+	at android.app.Activity.startActivityForResult(Activity.java:5150)
+	at androidx.fragment.app.FragmentActivity.startActivityForResult(FragmentActivity.java:663)
+	at android.app.Activity.startActivity(Activity.java:5521)
+	at android.app.Activity.startActivity(Activity.java:5489)
+	at com.android.contacts.util.ImplicitIntentsUtil.startActivityInApp(ImplicitIntentsUtil.java:82)
+	at com.android.contacts.util.AccountFilterUtil.startEditorIntent(AccountFilterUtil.java:205)
+	at com.android.contacts.activities.PeopleActivity$5.onClick(PeopleActivity.java:542)
+	at android.view.View.performClick(View.java:7125)
+	at android.view.View.performClickInternal(View.java:7102)
+	at android.view.View.access$3500(View.java:801)
+	at android.view.View$PerformClick.run(View.java:27336)
+	at android.os.Handler.handleCallback(Handler.java:883)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.app.ActivityThread.main(ActivityThread.java:7356)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+
+content://com.android.contacts/contacts exposed beyond app through Intent.getData() without permission grant flags; did you forget FLAG_GRANT_READ_URI_PERMISSION?
