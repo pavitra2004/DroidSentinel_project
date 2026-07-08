@@ -1,0 +1,35 @@
+Process: unknown
+Build: google/sdk_gphone_x86/generic_x86:10/QSR1.211112.011/13135432:userdebug/dev-keys
+System-App: true
+Uptime-Millis: 57710
+Loop-Violation-Number: 1
+Duration-Millis: 134
+
+android.os.strictmode.DiskReadViolation
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1556)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java:1138)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java:939)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java:838)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java:62)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java:153)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java:140)
+	at android.database.AbstractCursor.moveToPosition(AbstractCursor.java:232)
+	at android.database.AbstractCursor.moveToFirst(AbstractCursor.java:271)
+	at com.android.server.locksettings.LockSettingsStorage.readKeyValue(LockSettingsStorage.java:230)
+	at com.android.server.locksettings.LockSettingsService.getStringUnchecked(LockSettingsService.java:1070)
+	at com.android.server.locksettings.LockSettingsService.getString(LockSettingsService.java:1049)
+	at com.android.internal.widget.LockPatternUtils.getString(LockPatternUtils.java:1553)
+	at com.android.internal.widget.LockPatternUtils.getEnabledTrustAgents(LockPatternUtils.java:1595)
+	at com.android.server.trust.TrustManagerService.maybeEnableFactoryTrustAgents(TrustManagerService.java:827)
+	at com.android.server.trust.TrustManagerService.onBootPhase(TrustManagerService.java:189)
+	at com.android.server.SystemServiceManager.startBootPhase(SystemServiceManager.java:158)
+	at com.android.server.am.ActivityManagerService.finishBooting(ActivityManagerService.java:5267)
+	at com.android.server.am.ActivityManagerService.bootAnimationComplete(ActivityManagerService.java:5322)
+	at com.android.server.wm.WindowManagerService.performEnableScreen(WindowManagerService.java:3322)
+	at com.android.server.wm.WindowManagerService.access$1100(WindowManagerService.java:286)
+	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:4853)
+	at android.os.Handler.dispatchMessage(Handler.java:107)
+	at android.os.Looper.loop(Looper.java:214)
+	at android.os.HandlerThread.run(HandlerThread.java:67)
+	at com.android.server.ServiceThread.run(ServiceThread.java:44)
+
