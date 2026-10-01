@@ -76,6 +76,7 @@ The current experimental dataset contains **21 real Android forensic samples ext
 * **Rule-based detection**
 * **Android Forensic Artifacts**
 * **Android Studio Emulator**
+* **Android Debug Bridge (ADB)**
 
 ## Project Structure
 
@@ -273,7 +274,7 @@ The decryption workflow uses an extracted WhatsApp key and produces a decrypted 
 * **SQLite**
 * **Pandas**
 * **Streamlit**
-* **ADB**
+* **Android Debug Bridge (ADB)**
 * **SHA-256**
 * **HTML**
 * **CSV**
